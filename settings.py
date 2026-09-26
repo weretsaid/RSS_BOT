@@ -59,8 +59,8 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8180155304:AAECk5dg9kBFXST8ormioAK2JHUoCfn56uM")
-ADMIN_GROUP_ID = os.getenv("ADMIN_GROUP_ID", "-5317310069").strip()
-CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1003696695319"))
+ADMIN_GROUP_ID = os.getenv("ADMIN_GROUP_ID", "-1004420785886").strip()
+CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1003376696042"))
 CREATOR_ID = int(os.getenv("CREATOR_ID", "1940800577"))
 
 MAX_PLAYERS_PER_CLUB = 12
